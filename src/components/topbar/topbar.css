@@ -6,6 +6,12 @@
   padding: 0px 180px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .topbar {
+    padding: 0px 60px;
+  }
+}
+
 .topbar .topbar_inner {
   padding: 10px 0px;
   display: flex;
@@ -19,3 +25,30 @@
   margin-right: 10px;
 }
 
+.topbar_menu_icon {
+  display: none;
+}
+
+.title-tagline {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-tagline {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .topbar_menu {
+    display: none;
+  }
+  .topbar_menu_icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .topbar_menu_icon:hover {
+    color: #193D9D;
+  }
+}

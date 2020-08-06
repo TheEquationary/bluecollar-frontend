@@ -1,10 +1,12 @@
 import { createStore } from "redux";
 import { generateReducers } from "automate-redux";
+import {menuKeys} from "./constants";
 
 // Initial state of redux
 const initialState = {
   uiState: {
-    pendingRequests: 0
+    pendingRequests: 0,
+    currentMenuKey: menuKeys.HOME
   }
 };
 

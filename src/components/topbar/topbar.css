@@ -4,6 +4,7 @@
   height: 64px;
   width: 100%;
   padding: 0px 180px;
+  border-bottom: 2px solid #F0F0F0;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -33,7 +34,14 @@
   display: inline-block;
 }
 
+.ant-menu.topbar_menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 600px) {
+  .topbar {
+    padding: 0px 30px;
+  }
   .title-tagline {
     display: none;
   }

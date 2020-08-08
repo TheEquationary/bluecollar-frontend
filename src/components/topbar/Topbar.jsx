@@ -24,7 +24,7 @@ const Topbar = () => {
   const titleAndTagline =
     <React.Fragment>
       <b>BlueCollar</b><br />
-      <i>Handymen and Rennovation Services</i>
+      <i>Handymen and Renovation Services</i>
     </React.Fragment>
 
   // handlers

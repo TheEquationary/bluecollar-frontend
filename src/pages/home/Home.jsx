@@ -10,6 +10,8 @@ import Painting from "../../assets/painting.JPG";
 import Plumbing from "../../assets/plumbing.JPG";
 import Renovation from "../../assets/renovation.JPG";
 
+// TEST COMMIT
+
 const Home = () => {
   return (
     <React.Fragment>
